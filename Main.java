@@ -44,7 +44,7 @@ public class Main {
 
 //        System.out.println("Enter a number: ");
 //        int num = eb.nextInt();
-//        long factorial = 1;
+//        int factorial = 1;
 //
 //        for (int i = 1; i <= num; i++) {
 //            factorial *= i;
