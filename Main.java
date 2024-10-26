@@ -30,13 +30,13 @@ public class Main {
         //Test Data: Input a string: The quick brown fox Expected Output: Reverse
         //string: xof nworb kciuq ehT
 
-
-//            System.out.println("enter sentence that you want to reverce");
-//            String sentence = eb.nextLine();
-//            String reversed = new StringBuilder(sentence).reverse().toString();
-//            System.out.println("Reverse string: " + reversed);
-//        }
-
+    //     System.out.println("enter the sentence");
+    //     String input = eb.nextLine();
+    //     String reversed = "";  
+    //     for (int i = input.length() - 1; i >= 0; i--) {
+    //         reversed += input.charAt(i);}
+    //     System.out.println(" the revers sentence is" + reversed);
+    // }}
 
 //        3.Write a program to find the factorial value of any number entered
 //        through the keyboard.
@@ -137,14 +137,18 @@ public class Main {
 //        string is said to be a palindrome if it is the same if we start reading it from
 //        left to right or right to left.
 
-// System.out.print("Enter a string: ");
-//String e= eb.nextLine();
-//String reversed = new StringBuilder(e).reverse().toString();
-//if (e.equals(reversed)) {
-//System.out.println(e + " is a palindrome.");
-// } else {
-// System.out.println(e + " is not a palindrome.");
-// }}}
+System.out.print(" enter the word");
+        String input = eb.nextLine();
+        String reversed = ""; 
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);  }
+        if (input.equals(reversed)) {
+            System.out.println(input + " is palindrome.");
+        } else {
+            System.out.println(input + " not palindrome.");
+        }
+    }
+}
 
 
 
